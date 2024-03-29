@@ -1,0 +1,27 @@
+# External
+node_modules
+temp
+
+# Generated
+*.css.d.ts
+*.sass.d.ts
+*.scss.d.ts
+
+# Runtime
+pids
+*.pid
+*.seed
+
+# Exclude folders in resources/devtools-extensions except for the .gitkeep
+resources/devtool-extensions/**/*
+!resources/devtool-extensions/**/.gitkeep
+
+# Build
+release/app/dist
+release/build
+dll
+
+# Logs
+logs
+*.log
+npm-debug.log.*

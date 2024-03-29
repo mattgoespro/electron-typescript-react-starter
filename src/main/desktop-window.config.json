@@ -1,0 +1,17 @@
+{
+  "assetsPath": "assets",
+  "chromeExtensionsDir": "$LOCALAPPDATA/Google/Chrome/User Data/Default/Extensions",
+  "showOnCreate": true,
+  "useResourceDevtools": true,
+  "webPreferences": {
+    "nodeIntegration": true,
+    "tset": {
+      "test": "test"
+    },
+    "webSecurity": false
+  },
+  "windowHeight": 600,
+  "windowIcon": "icon.png",
+  "windowTitle": "My App",
+  "windowWidth": 1200
+}

@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "lib": ["dom", "es2021"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "dll",
+    "paths": {
+      "@Components/*": ["src/renderer/App/Shared/Components/*"],
+      "@Redux/*": ["src/renderer/App/Redux/*"],
+      "@Theme/*": ["src/renderer/App/Shared/Theme/*"],
+      "@services/*": ["src/renderer/App/Redux/services/*"],
+      "generate-uuid": ["src/renderer/App/Shared/uuid.ts"],
+      "main/*": ["src/main/*"],
+      "renderer/*": ["src/renderer/*"],
+      "src/*": ["src/*"]
+    },
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "target": "es2021",
+    "types": ["node"]
+  },
+  "include": ["src", "webpack"]
+}

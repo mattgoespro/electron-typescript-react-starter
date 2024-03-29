@@ -1,0 +1,15 @@
+{
+  "author": "hoppingmode",
+  "name": "desktop-toolbox",
+  "description": "A utility toolbox for everyday desktop activities.",
+  "main": "./dist/main/main.js",
+  "dependencies": {
+    "sharp": "^0.33.0"
+  },
+  "scripts": {
+    "link-modules": "node -r ts-node/register ../../scripts/link-modules.ts",
+    "postinstall": "npm run rebuild && npm run link-modules",
+    "rebuild": "node -r ts-node/register  ../../scripts/electron-rebuild.ts"
+  },
+  "version": "0.0.1"
+}
